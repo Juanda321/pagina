@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suzuki Gixxer 150</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .navbar-brand {
+            font-weight: bold;
+        }
+        .hero-section {
+            background-color: #f8f9fa;
+            padding: 4rem 0;
+        }
+        .feature-icon {
+            font-size: 2rem;
+            color: #dc3545;
+        }
+        .video-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        .hero-image {
+            max-width: 100%;
+            height: auto;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Suzuki Gixxer 150</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#caracteristicas">Características</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#video">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#galeria">Galería</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#comentarios">Comentarios</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero-section" id="inicio">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold">Suzuki Gixxer 150</h1>
+                    <p class="lead">Una motocicleta deportiva que combina potencia, estilo y tecnología. Con su diseño naked moderno y su motor de alto rendimiento, la Gixxer 150 es la elección perfecta para los amantes de las dos ruedas.</p>
+                </div>
+                <div class="col-lg-6">
+                    <img src="/api/placeholder/600/400" alt="Suzuki Gixxer 150 Azul" class="hero-image">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- El resto del código permanece igual... -->
+
+    <main>
+        <section class="py-5" id="caracteristicas">
+            <div class="container">
+                <h2 class="text-center mb-5">Características Principales</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Motor Potente</h5>
+                                <p class="card-text">
+                                    - 155 cc, 4 tiempos<br>
+                                    - 14.1 caballos de fuerza<br>
+                                    - Torque: 14 Nm
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Diseño Deportivo</h5>
+                                <p class="card-text">
+                                    - Estilo naked moderno<br>
+                                    - Peso: 140 kg<br>
+                                    - Asiento doble escalonado
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Tecnología Avanzada</h5>
+                                <p class="card-text">
+                                    - Luces LED<br>
+                                    - ABS en llanta delantera<br>
+                                    - Sistema SEP de inyección
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-light py-5" id="video">
+            <div class="container">
+                <h2 class="text-center mb-5">Video Demostrativo</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <div class="video-container">
+                            <iframe 
+                                src="https://www.youtube.com/embed/4o_M-s_tDOc" 
+                                title="Suzuki Gixxer 150 Video"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="galeria">
+            <div class="container">
+                <h2 class="text-center mb-5">Galería</h2>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <img src="/api/placeholder/400/300" alt="Gixxer 150 Vista 1" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/api/placeholder/400/300" alt="Gixxer 150 Vista 2" class="img-fluid rounded">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="/api/placeholder/400/300" alt="Gixxer 150 Vista 3" class="img-fluid rounded">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="py-5" id="comentarios">
+            <div class="container">
+                <h2 class="text-center mb-5">Déjanos tu comentario</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="comentario" class="form-label">Comentario</label>
+                                <textarea class="form-control" id="comentario" rows="4" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar comentario</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>Suzuki Gixxer 150</h5>
+                    <p>La mejor opción en motocicletas deportivas</p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p>© 2024 Todos los derechos reservados</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
